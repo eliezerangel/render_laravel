@@ -8,4 +8,4 @@ Route::get('/gallery', [HomeController::class, 'gallery']);
 Route::get('/blog', [HomeController::class, 'blog']);
 Route::get('/contacts', [HomeController::class, 'contacts']);
 
-Route::get('/login', [AuthController::class, 'login']);
+//Route::get('/login', [AuthController::class, 'login']);
