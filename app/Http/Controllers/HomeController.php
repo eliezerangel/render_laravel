@@ -5,15 +5,17 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StoreHomeRequest;
 use App\Http\Requests\UpdateHomeRequest;
 use App\Models\Home;
+use Illuminate\Support\Facades\View;
 
 class HomeController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index() : \Illuminate\Contracts\View\View
     {
-        return view('audi.index');
+        return View::make('audi.index');
+        //return view('audi.index');
     }
 
 
