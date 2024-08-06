@@ -19,20 +19,20 @@ class HomeController extends Controller
     }
 
 
-    public function gallery()
-    {
-        return view('audi.gallery');
-    }
-
-    public function blog()
-    {
-        return view('audi.blog');
-    }
-
-    public function contacts()
-    {
-        return view('audi.contacts');
-    }
+//    public function gallery()
+//    {
+//        return view('audi.gallery');
+//    }
+//
+//    public function blog()
+//    {
+//        return view('audi.blog');
+//    }
+//
+//    public function contacts()
+//    {
+//        return view('audi.contacts');
+//    }
 
 
     /**
